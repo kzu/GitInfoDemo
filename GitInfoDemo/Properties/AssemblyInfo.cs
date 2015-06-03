@@ -33,5 +33,5 @@ using GitInfoDemo;
 // You can specify all the values or you can default the Build and Revision Numbers 
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion (ThisAssembly.Git.Version.Major + "." + ThisAssembly.Git.Version.Minor + "." + ThisAssembly.Git.Version.Patch)]
+[assembly: AssemblyVersion (ThisAssembly.Git.SemVer.Major + "." + ThisAssembly.Git.SemVer.Minor + "." + ThisAssembly.Git.SemVer.Patch)]
 [assembly: AssemblyFileVersion ("1.0.0.0")]

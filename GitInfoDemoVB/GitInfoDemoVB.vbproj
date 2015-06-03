@@ -105,5 +105,5 @@
     <None Include="App.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
-	<Import Project="..\..\GitInfo\src\tools\GitInfo.targets" />
+	<Import Project="..\..\GitInfo\src\build\GitInfo.targets" />
 </Project>

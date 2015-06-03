@@ -10,7 +10,7 @@ namespace GitInfoDemo
 	{
 		static void Main (string[] args)
 		{
-			Console.WriteLine (ThisAssembly.Git.Version.DashLabel);
+			Console.WriteLine (ThisAssembly.Git.Commits);
 		}
 	}
 }

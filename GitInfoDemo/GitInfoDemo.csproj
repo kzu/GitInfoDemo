@@ -52,5 +52,5 @@
     <GitInfoReportImportance>high</GitInfoReportImportance>
   </PropertyGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
-  <Import Project="..\..\GitInfo\src\tools\GitInfo.targets" />
+  <Import Project="..\..\GitInfo\src\build\GitInfo.targets" />
 </Project>

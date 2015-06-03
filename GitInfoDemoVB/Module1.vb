@@ -3,7 +3,7 @@
 Module Module1
 
     Sub Main()
-        Console.WriteLine(ThisAssembly.Git.SemVer.Source);
+        Console.WriteLine(ThisAssembly.Git.Commits)
     End Sub
 
 End Module
