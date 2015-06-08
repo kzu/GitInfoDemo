@@ -104,6 +104,9 @@
     </None>
     <None Include="App.config" />
   </ItemGroup>
+  <PropertyGroup>
+    <GitInfoReportImportance>high</GitInfoReportImportance>
+  </PropertyGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 	<Import Project="..\..\GitInfo\src\build\GitInfo.targets" />
 </Project>
